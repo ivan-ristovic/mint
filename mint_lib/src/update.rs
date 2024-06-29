@@ -1,8 +1,9 @@
 use crate::error::GenericError;
 use crate::error::ResultExt;
 
-pub const GITHUB_RELEASE_URL: &str = "https://api.github.com/repos/trumank/mint/releases/latest";
-pub const GITHUB_REQ_USER_AGENT: &str = "trumank/mint";
+pub const GITHUB_RELEASE_URL: &str =
+    "https://api.github.com/repos/ivan-ristovic/mint/releases/latest";
+pub const GITHUB_REQ_USER_AGENT: &str = "ivan-ristovic/mint";
 
 #[derive(Debug, serde::Deserialize)]
 pub struct GitHubRelease {

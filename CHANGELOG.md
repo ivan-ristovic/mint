@@ -4,6 +4,9 @@
 
 ## [Unreleased] - ReleaseDate
 
+### This fork
+- Remove `[MODDED]` prefix
+
 ### General
 
 - Fix unintentionally linking to libssl on Linux. This used to prevent some users on various Linux
